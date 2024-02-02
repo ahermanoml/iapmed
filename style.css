@@ -1,3 +1,48 @@
 body {
-    background-color: gray;
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1000px; /* Limita a largura máxima do conteúdo */
+    margin: auto; /* Centraliza o conteúdo */
+    padding: 20px; /* Adiciona um pouco de padding em todos os lados */
 }
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding: 0 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Media queries para ajustes em dispositivos móveis */
+@media (max-width: 768px) {
+    body {
+        padding: 10px; /* Reduz o padding em telas menores */
+    }
+
+    h1 {
+        font-size: 24px; /* Reduz o tamanho da fonte para o título em telas menores */
+    }
+
+    p, li {
+        font-size: 16px; /* Aumenta a fonte para parágrafos e itens da lista */
+        line-height: 1.5; /* Aumenta o espaçamento entre linhas */
+    }
+}
+
